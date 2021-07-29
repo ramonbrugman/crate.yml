@@ -34,7 +34,9 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-
-- name: git Actions
+# Runs git actions
+ - name: git Actions
   uses: srt32/git-actions@v0.0.3
+run:|
+Echo finished if succes 
 
